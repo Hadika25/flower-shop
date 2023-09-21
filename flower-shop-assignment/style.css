@@ -1,161 +1,42 @@
-.starting{
-    height: 850px;
+/*common shared style*/
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    border:0;
+    padding: 20px 43px;
+    font-weight: 700;
+}
+
+  
+  
+ /*header related style*/
+ .header{
     width: 1920px;
-    background-color:lightcoral ;
-}
-
-.banner-img{
-  width: 635px;
-  height: 800px;
-  padding-bottom: 0px;
-}
-.banner-container{
-  display: flex;
-  justify-content: space-around;
-  height: 100vh;
-  background-size: cover;
-  align-items: center;
-}
-.title{
-    font-size: 55px;
-    font-weight: bold;
-}
- .description{
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.btn{
-    padding: 10px 20px;
-    background-color: deeppink;
-    color:white;
-    border: none;
-    border-radius: 10px;
-}
-
-.featured-info{
-    text-align: center;
-   
-    padding: 130px;
-    width: 594px;
-    height: 132px;
-    
-}
-.featured-photo{
-    height: 1426px;
-    width:605px;
-    display:flex;
-   
-   
-    
-}
-.image-box{
-    height: 605px;
-    width:464px;
-    background-color:hotpink;
-    border-radius: 45% 45% 0 0;
-    padding: 20px;
-    margin-right: 10px;
-
-}
-.png-box{
-    height: 605px;
-    width:464;
-    background-color:aqua;
-    border-radius: 45% 45% 0 0;
-    padding: 20px;
-    margin-right: 10px;
-
-}
-.photo-box{
-    height: 605px;
-    width:464px;
-    background-color:greenyellow;
-    border-radius: 45% 45% 0 0;
-    padding: 20px;
-    margin-right: 10px;
-
-}
+height: 850px;
+flex-shrink: 0;
+background: rgba(229, 84, 115, 0.10);
+padding: 200px 240px 140px 240px;
 
 
-.flowers{
-    font-size: 35px;
-    font-weight: 15px;
-    
-}
-.info{
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.service{
-    
-    display:flex;
-    justify-content: center;
+ }
+ .banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
     align-items: center;
-    background-color:moccasin ;
-    height: 320px;
-    width: 1440px;
-    padding:0px;
-}
-.first-box{
-    width:22%;
-   
-    border-radius: 45% 45% 0 0;
-    padding: 20px;
-    margin-right: 10px;
-}
-.second-box{
-    width:22%;
     
-    border-radius: 45% 45% 0 0;
-    padding: 20px;
-    margin-right: 10px; 
-}
-
-.third-box{
-    
-    width:22%;
-   
-    border-radius: 45% 45% 0 0;
-    padding: 20px;
-    margin-right: 10px;}
+ }
+ .banner.pic{
+    width: 630px;
+ }
 
 
 
-
-
-
-
-
-.second{
-    height: 620px;
-    width: 1922px;
-    background-color:lightcoral ;
-    padding-top: 10px;
-}
-.sign-photo{
-    width: 318px;
-  height: 420px;
-  padding-bottom: 0px;
-}
-
-.sign-up{
-   
-
-  justify-content: space-around;
-  height: 100vh;
-  align-items: center;
-}
-
-.regi{
-
-    font-size: 35px;
-    font-weight: bold;
-}
-.registration{
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
+ 
+ 
