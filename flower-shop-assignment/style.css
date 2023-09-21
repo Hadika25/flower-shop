@@ -1,9 +1,13 @@
 /*common shared style*/
+
 body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+.text-primary{
+    color: #E55473;
 
+}
 .btn-primary{
     border-radius: 8px;
     background: #E55473;
@@ -110,5 +114,86 @@ line-height: 35px; /* 145.833% */
 text-decoration-line: underline;
 }
 
+
+/*contact section*/
+.contact{
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+}
+
+.contact-description{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; /* 145.833% */
+}
  
- 
+.contact-item{
+   display:flex;
+   justify-content:space-around;
+
+}
+/*discount section*/
+
+.discount-title{
+    color: #272727;
+    
+    font-size: 40px;
+   
+    font-weight: 800;
+    
+    text-align: center;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 50px;
+   }
+   
+   .discount-content.img{
+    width: 318px;
+    height: 420px;
+    flex-shrink: 0;
+
+   }
+
+   /*instagram section*/
+.flower-box{
+    display: flex;
+    justify-content: space-around;
+}
+/*deals section*/
+
+.deals input[type="email"]
+{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 16px;
+
+font-weight: 400;
+
+    width: 700px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+
+}
+.deals-section{
+    background-image: url('../flower-shop-assignment/Flower\ asset/Rectangle 9.png');
+    width: 1440px;
+height: 449px;
+border-radius: 8px;
+
+
+}
+.deals-itam{
+    justify-content: center;
+}
