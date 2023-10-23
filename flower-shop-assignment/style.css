@@ -207,15 +207,13 @@ line-height: 35px; /* 145.833% */
 
 .deals input[type="email"]
 {
+
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-
-font-size: 16px;
-
-font-weight: 400;
-
-    width: 700px;
-height: 64px;
+ text-align: center;
+  font-size: 16px;
+ font-weight: 400;
+ width: 700px;
+ height: 64px;
 flex-shrink: 0;
 border-radius: 8px;
 background: #FFF;
@@ -229,8 +227,10 @@ border-radius: 8px;
 
 
 }
-.deals-itam{
+.deals-item{
     justify-content: center;
+    align-items: center;
+    display: flex;
 }
 /*footer part*/
 footer{
